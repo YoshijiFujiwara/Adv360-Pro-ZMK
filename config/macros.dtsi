@@ -2,7 +2,7 @@ macro_win_switch_inpu: macro_win_switch_inpu{
 compatible = "zmk,behavior-macro";
 label = "macro_win_switch_inpu";
 #binding-cells = <0>;
-bindings = <&kp LEFT_ALT>, <&kp GRAVE>;
+bindings = <&sk LEFT_ALT>, <&kp GRAVE>;
 };
 macro_red_email: macro_red_email{
 compatible = "zmk,behavior-macro";
